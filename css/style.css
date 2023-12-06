@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.request-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Apply flexbox to the parent container */
+.info {
+    display: flex;
+    justify-content: space-between; /* Adjust this property based on your design needs */
+    align-items: center; /* Center items vertically */
+
+    /* Optional: Add padding or margin for spacing */
+    padding: 20px;
+}
+
+/* Style for the image container */
+.info-image {
+    /* Set a maximum width for the image */
+    max-width: 500px; /* Adjust the value based on your design needs */
+}
+
+/* Style for the image inside the container */
+.info-image img {
+    width: 100%; /* Make the image responsive within its container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Style for the text container */
+.info-desc {
+    /* Optional: Add padding or margin for spacing */
+    padding-left: 20px;
+    /* Optional: Adjust the width or other styles */
+}
